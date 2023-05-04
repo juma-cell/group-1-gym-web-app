@@ -1,0 +1,62 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "phone": "(123) 456-7890",
+      "membership": "Premium",
+      "joinDate": "2022-01-01",
+      "activity": [
+        {
+          "date": "2022-02-01",
+          "type": "Cardio",
+          "duration": 30,
+          "caloriesBurned": 300
+        },
+        {
+          "date": "2022-02-03",
+          "type": "Strength",
+          "duration": 60,
+          "caloriesBurned": 500
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "phone": "(987) 654-3210",
+      "membership": "Basic",
+      "joinDate": "2022-03-01",
+      "activity": [
+        {
+          "date": "2022-03-02",
+          "type": "Cardio",
+          "duration": 45,
+          "caloriesBurned": 400
+        }
+      ]
+    },
+    {
+      "name": "Juma",
+      "email": "majorhart4@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "martin mwangi",
+      "email": "majorhart4@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "josh",
+      "email": "josh4@hotmail.com",
+      "id": 5
+    },
+    {
+      "name": "Juma",
+      "email": "juma.musa@student.moringaschool.com",
+      "id": 6
+    }
+  ]
+}

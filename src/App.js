@@ -7,6 +7,7 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Join from './components/Join/Join';
 import Footer from './components/Footer/Footer';
 import Members from './components/Members/Members';
+import Trainer from './components/Trainer/Trainer';
 
 
 
@@ -23,6 +24,7 @@ function App() {
           <Join/>
           <Footer/>
           <Members/>
+          <Trainer/>
          
         
           

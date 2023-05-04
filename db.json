@@ -60,6 +60,102 @@
       "membership": "premium",
       "joinDate": "4-5-2023",
       "id": 16
+    },
+    {
+      "trainers": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "email": "johndoe@email.com",
+          "specialties": [
+            "Weightlifting",
+            "Functional Training"
+          ],
+          "photo": "https://img.freepik.com/premium-photo/boxing-strong-boxer-man-portrait-training-workout-fitness-gym-muscle-strength-body-goals-determined-personal-trainer-athlete-during-his-exercise-healthy-motivation-mma-sports_590464-86037.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Jane Smith",
+          "email": "janesmith@email.com",
+          "specialties": [
+            "Yoga",
+            "Pilates",
+            "Running"
+          ],
+          "photo": "https://img.freepik.com/premium-photo/fitness-kettlebell-black-woman-doing-exercise-with-weight-with-strength-focus-motivation-sports-exercising-strong-african-female-athlete-doing-muscle-training-workout-gym_590464-115508.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Martin Mwangi",
+          "email": "Martin@email.com",
+          "specialties": [
+            "Yoga",
+            "squats",
+            "Dance"
+          ],
+          "photo": "https://phantom-marca.unidadeditorial.es/6800b25e3be78ca550cdd72fa220abaa/crop/0x0/1179x663/resize/1320/f/jpg/assets/multimedia/imagenes/2022/07/24/16586882688987.png"
+        },
+        {
+          "id": 4,
+          "name": "Leila Sharon",
+          "email": "lesha@email.com",
+          "specialties": [
+            "Yoga",
+            "Pilates",
+            "Athletics"
+          ],
+          "photo": "https://i.pinimg.com/736x/eb/7b/60/eb7b60dc84dcb5cb9862d46c6091a146.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Tylor creator",
+          "email": "Tylor@email.com",
+          "specialties": [
+            "Aerobic",
+            "Bench press"
+          ],
+          "photo": "https://thumbs.dreamstime.com/b/gym-portrait-23112114.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Musa Juma",
+          "email": "Juma@email.com",
+          "specialties": [
+            "Running",
+            "push up"
+          ],
+          "photo": "https://cdn.shopify.com/s/files/1/1283/2557/files/The_Top_Female_CrossFit_Athletes_Lauren_Herrera_1024x1024.jpg?v=1531287675"
+        },
+        {
+          "id": 7,
+          "name": "Allan white",
+          "email": "allan@email.com",
+          "specialties": [
+            "Cycling",
+            "Swimming"
+          ],
+          "photo": "https://i.pinimg.com/originals/0e/6f/4e/0e6f4e844caf341c33b490859a16fe68.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Winne Lee",
+          "email": "winnie@email.com",
+          "specialties": [
+            "Pilates",
+            "Tai chi"
+          ],
+          "photo": "https://i.pinimg.com/originals/7a/df/b0/7adfb0b1933d70e5a137d6b90037459f.jpg"
+        },
+        {
+          "name": "max",
+          "email": "max@gmail.com",
+          "specialties": [
+            "running"
+          ],
+          "photo": "https://static01.nyt.com/images/2012/06/24/sports/GENDER/GENDER-superJumbo.jpg",
+          "id": 9
+        }
+      ]
     }
   ]
 }

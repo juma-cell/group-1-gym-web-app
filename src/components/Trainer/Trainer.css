@@ -1,0 +1,31 @@
+.bot-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 0.1rem;
+    margin-top: 2%;
+  }
+
+
+
+  
+  .card {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #5c8fd38a;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+    transition: all 0.3s ease-in-out;
+  }
+
+  .card img{
+
+height: 200px;
+
+
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }

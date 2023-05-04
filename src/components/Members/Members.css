@@ -1,69 +1,117 @@
 section {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+input {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+
+button {
+  background-color: #149597;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #23dede;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  display: flex;
+}
+
+li {
+  background-color: #302f2f;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+li h3 {
+  margin: 0;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+li p {
+  margin: 0;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="membership"],
+input[type="joinDate"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #3af6ed;
+  background-color: #232626;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="phone"]:focus,
+input[type="membership"]:focus,
+input[type="joinDate"]:focus {
+  outline: none;
+  border-color: #22ffd7;
   
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-  }
   
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
-  }
-  
-  input {
-    display: block;
-    width: 100%;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-  }
-  
-  button {
-    background-color: #149597;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 0.8rem 1.2rem;
-    border-radius: 0.3rem;
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #23dede;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    background-color: #302f2f;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 0.3rem;
-  }
-  
-  li h3 {
-    margin: 0;
-    font-size: 1.6rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  li p {
-    margin: 0;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-  }
-  
+}
+
+
+

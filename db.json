@@ -39,24 +39,27 @@
       ]
     },
     {
-      "name": "Juma",
+      "name": "joshua mwangi ",
+      "email": "joshua254@gmail.com",
+      "phone": "0759769477",
+      "membership": "premium",
+      "id": 12
+    },
+    {
+      "name": "joshua mwangi ",
       "email": "majorhart4@gmail.com",
-      "id": 3
+      "phone": "0759769477",
+      "membership": "premium",
+      "joinDate": "4-5-2023",
+      "id": 15
     },
     {
-      "name": "martin mwangi",
+      "name": "joshua mwangi ",
       "email": "majorhart4@gmail.com",
-      "id": 4
-    },
-    {
-      "name": "josh",
-      "email": "josh4@hotmail.com",
-      "id": 5
-    },
-    {
-      "name": "Juma",
-      "email": "juma.musa@student.moringaschool.com",
-      "id": 6
+      "phone": "999000999",
+      "membership": "premium",
+      "joinDate": "4-5-2023",
+      "id": 16
     }
   ]
 }

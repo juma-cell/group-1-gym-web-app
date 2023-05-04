@@ -57,73 +57,50 @@ function Members() {
     const phone = form.phone.value;
     const membership = form.membership.value;
     const joinDate = form.joinDate.value;
-    const workoutType = form.workoutType.value;
-    const duration = form.duration.value;
-    const caloriesBurned = form.caloriesBurned.value;
-
-    const newMember = { 
-        name, 
-        email , 
-        phone,
-        membership,
-        joinDate,
-        workoutType,
-        duration,
-        caloriesBurned, };
-    
+    const newMember = { name, email, phone, membership, joinDate};
     addMember(newMember);
     form.reset();
   };
 
   return (
-    <section>
-    <h1>Members</h1>
-    <ul>
-      {members.map((member) => (
-        <li key={member.id}>
-          <h3>{member.name}</h3>
-          <p>{member.email}</p>
-          <p>{member.phone}</p>
-          <p>{member.membership}</p>
-          <p>{member.joinDate}</p>
-          <p>{member.workoutType}</p>
-          <p>{member.duration}</p>
-          <p>{member.caloriesBurned}</p>
-          <button onClick={() => deleteMember(member.id)}>
-            Quit Urban-Fitness Gym
-          </button>
-        </li>
-      ))}
-    </ul>
-    
-      <form onSubmit={handleSubmit}>
-        <h2>Add a new member:</h2>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-        <button type="submit">Add Member</button>
+    <section className="members-container">
+      <div className="members-list">
+        <h1>Members</h1>
+        <ul>
+          {members.map((member) => (
+            <li key={member.id}>
+              <h3>{member.name}</h3>
+              <p>{member.email}</p>
+              <p>{member.phone}</p>
+              <p>{member.membership}</p>
+              <p>{member.joinDate}</p>
+              <button onClick={() => deleteMember(member.id)}>QUIT </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+      
+      <div className="add-member-form">
+        <form onSubmit={handleSubmit}>
+          <h2>Add a new member:</h2>
+          <label htmlFor="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label htmlFor="phone">Phone</label>
+          <input type="phone" id="phone" name="phone" required />
+          <label htmlFor="membership">Membership</label>
+          <input type="membership" id="membership" name="membership" required />
+          <label htmlFor="joinDate">joinDate</label>
+          <input type="joinDate" id="joinDate" name="joinDate"/>
+
+        <button type="submit">Join GYM</button>
+        
       </form>
-    </section>
+      </div>
+      </section>
+    
   );
 }
 
 export default Members;
-// {/* <form onSubmit={handleSubmit}>
-// //         <h2>Add a new member:</h2>
-// //         <label htmlFor="name">Name:</label>
-// //         <input type="text" id="name" name="name" required />
-// //         <label htmlFor="email">Email:</label>
-// //         <input type="email" id="email" name="email" required />
-// //         <label htmlFor="phone">Phone:</label>
-// //         <input type="text" id="phone" name="phone" required />
-// //         <label htmlFor="membership">Membership:</label>
-// //         <input type="text" id="membership" name="membership" required />
-// //         <label htmlFor="joinDate">Join Date:</label>
-// //         <input type="date" id="joinDate" name="joinDate" required />
-// //         <button type="submit">Add Member to the GYM</button>
-// //         </form>
-// //         </section>
-// //         );}
-
-// //         export default Members; */}

@@ -21,8 +21,8 @@ const Header = () => {
         <li onClick={()=>{setMenuOpened(true); scrollToSection('why-us')}}>Why us</li>
         <li onClick={()=>{setMenuOpened(true); scrollToSection('plans')}}>Plans</li>
         <li onClick={()=>{setMenuOpened(true); scrollToSection('testimonials')}}>Testimonials</li>
+        <li onClick={()=>{setMenuOpened(true); scrollToSection('testimonials')}}>Trainer</li>
       </ul>
-
      
     </div>
   );

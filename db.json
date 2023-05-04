@@ -156,6 +156,22 @@
           "id": 9
         }
       ]
+    },
+    {
+      "name": "joshua mwangi ",
+      "email": "majorhart4@gmail.com",
+      "phone": "0759769477",
+      "membership": "premium",
+      "joinDate": "4-5-2023",
+      "id": 17
+    },
+    {
+      "name": "juma",
+      "email": "majorhart4@gmail.com",
+      "phone": "0759769477",
+      "membership": "premium",
+      "joinDate": "4-5-2023",
+      "id": 18
     }
   ]
 }

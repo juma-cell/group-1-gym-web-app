@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 34rem;
+    height: 12rem;
+}
+
+.headermenu{
+    list-style: none;
+    display: flex ;
+    gap: 2rem;
+    color: rgb(30, 221, 144);
+}
+.headermenu>li{
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bolder;
+}
+.headermenu>li:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}

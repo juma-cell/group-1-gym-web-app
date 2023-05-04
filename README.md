@@ -23,3 +23,4 @@ The Gym React Application includes the following features:
 Responsive design: The application is optimized for desktop and mobile devices, and adjusts its layout accordingly.
 Navigation menu: The application includes a navigation menu that allows users to easily switch between pages.
 
+.

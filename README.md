@@ -8,7 +8,7 @@ Clone the repository to your local machine.
 Open a terminal window and navigate to the project directory.
 Run the command npm install to install the necessary dependencies.
 Run the command npm start to start the application.
-Open a web browser and go to http://localhost:3000 to view the application.
+Open a web browser and go to https://glittering-unicorn-bd88ce.netlify.app  to view the application.
 Pages
 The Gym React Application consists of the following pages:
 
